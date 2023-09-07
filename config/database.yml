@@ -81,6 +81,4 @@ test:
 #
 production:
   <<: *default
-  database: zuri_backend_task_production
-  username: zuri_backend_task
-  password: <%= ENV["ZURI_BACKEND_TASK_DATABASE_PASSWORD"] %>
+  url: <%= ENV["DATABASE_URL"] %>
