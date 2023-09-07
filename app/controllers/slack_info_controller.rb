@@ -6,10 +6,10 @@ class SlackInfoController < ApplicationController
         utc_time = Time.now.utc.strftime('%Y-%m-%dT%H:%M:%SZ')
         github_username = 'Muriithi-Gitonga'
         github_repo = 'zuri-backend-task'
-        github_file_url = ""
-        github_repo_url = ""
+        github_file_url = "https://github.com/Muriithi-Gitonga/zuri-backend-task/blob/main/app/controllers/slack_info_controller.rb"
+        github_repo_url = "https://github.com/Muriithi-Gitonga/zuri-backend-task"
         status_code = 200
-    
+        
         response_data = {
           slack_name: slack_name,
           current_day: current_day,
